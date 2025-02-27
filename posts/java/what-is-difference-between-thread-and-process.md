@@ -6,6 +6,7 @@ authors:
 prev: 
 next: how-to-create-threads-in-java
 ---
+## Contents
 
 ## Introduction
 

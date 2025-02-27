@@ -5,6 +5,9 @@ authors:
     - Hal Nguyen
 ---
 
+
+## Contents
+
 ### **Introduction**
 
 Java is one of the most popular programming languages in the world, known for its versatility, efficiency, and platform independence. Used by millions of developers globally, Java powers everything from mobile applications to large-scale enterprise systems. Whether you’re looking to build Android apps, develop server-side applications, or work on large enterprise projects, Java provides a robust foundation. In this post, we'll explore what Java is, why it’s so widely used, and dive into some of its key concepts.

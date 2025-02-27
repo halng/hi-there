@@ -13,6 +13,8 @@ Let's explore the Map hierarchy and its implementations.
 
 In a [previous post](https://hi-there.me/blogs/java/list-set-map-and-their-implementations-in-java), I provided an overview of **Map**. In this article, we’ll take a closer look at HashMap and LinkedHashMap, comparing their features and behaviors.
 
+## Contents
+
 ## HashMap
 
 - **HashMap** is a robust data structure in Java that stores key-value pairs, mapping values to their associated keys. It allows null keys and values and is a non-synchronized class within the Java Collection framework.

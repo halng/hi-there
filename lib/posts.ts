@@ -4,6 +4,7 @@ import path from "path";
 import matter from "gray-matter";
 import { remark } from "remark";
 import remarkGfm from "remark-gfm"; 
+import remarkToc from "remark-toc";
 import html from "remark-html";
 import { Metadata, Params, PostData } from "./type";
 import MappingData from "../posts/config.json";
@@ -40,6 +41,7 @@ export async function getPostDataWithContent(
 
   const processedContent = await remark()
     .use(html)
+    .use(remarkToc)
     .use(remarkGfm)
     .process(matterResult.content);
 

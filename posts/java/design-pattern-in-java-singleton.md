@@ -10,6 +10,8 @@ next:
 
 *What is the Signleton Pattern and its principle? How can we use it to improve our code? How to implement it in Java and so on... In this blog post we are going to learn more about it. Let's dive in!!*
 
+## Contents
+
 ## 1. What is the Singleton Pattern?
 
 - **Singleton** pattern is a *creational design pattern** that restricts the initialization of a class to ensure that only one instance of the class can be created while providing a global access point to this instances.
