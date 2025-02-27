@@ -10,6 +10,8 @@ next:
 
 PostgreSQL (often referred to as Postgres) is a powerful, open-source relational database management system (RDBMS). It stands out from other databases due to its features, design philosophy, and use cases.
 
+## Contents
+
 ### **1. Advanced Features**
 
 - **Extensibility**: PostgreSQL allows users to define their own data types, functions, operators, and index types. This level of extensibility is not as common in other databases.

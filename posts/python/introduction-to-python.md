@@ -5,6 +5,8 @@ authors:
     - Hal Nguyen
 ---
 
+## Contents
+
 ## A Beginner's Guide to Python: Essential Concepts
 
 **Python**, a high-level, general-purpose programming language, is renowned for its readability, simplicity, and versatility. It's widely used in various fields, from web development and data science to automation and scientific computing. Let's dive into the fundamental concepts of Python programming.

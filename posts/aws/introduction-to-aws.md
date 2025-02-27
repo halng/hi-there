@@ -5,6 +5,8 @@ authors:
     - Hal Nguyen
 ---
 
+## Contents
+
 ## Introducing Amazon Web Services (AWS): Your Cloud Computing Platform
 
 **What is AWS?**

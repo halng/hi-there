@@ -7,6 +7,8 @@ next: what-different-between-hashmap-and-linkedhashmap
 prev: ''
 ---
 
+## Contents
+
 ## 1. List
 
 - One of the Java **collection interface's sub interface** is **List**. It's offer index-based ways to **add, update, remove, search** for elements.

@@ -8,6 +8,8 @@ prev: what-is-difference-between-thread-and-process
 next: 
 ---
 
+## Contents
+
 ## Introduction
 
 In [previous article](https://hi-there.me/blogs/java/what-is-difference-between-thread-and-process), we have learned about the difference between thread and process. In this article, we will learn how to create threads in Java. Typically, there are five ways to create threads in Java:

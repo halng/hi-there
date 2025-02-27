@@ -8,6 +8,8 @@ prev: introduction-to-java
 next: 
 ---
 
+## Contents
+
 ## What is OOP in Java?
 
 - OOP stands for Object-Oriented Programming, is a paradigm that structures the programs around objects, which are instances of classes.

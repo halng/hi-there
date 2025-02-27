@@ -7,6 +7,8 @@ next: ''
 prev: 'introduction-to-rust'
 ---
 
+## Contents
+
 **Ownership and Borrowing**
 
 Rust's ownership system is one of its most distinctive features. Every value in Rust has an owner, and only one owner at a time. When a value goes out of scope, its owner is dropped, and the value is destroyed. This system helps prevent memory leaks and data races.

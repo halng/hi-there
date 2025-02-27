@@ -5,6 +5,8 @@ authors:
     - Hal Nguyen
 ---
 
+## Contents
+
 ## What is Serverless Architecture
 
 - **Serverless architecture** is a cloud-based approach where developers can build and run applications without managing the underlying infrastructure. Unlike traditional architectures, which require provisioning and maintaining servers or virtual machines, serverless allows developers to focus solely on code, as the cloud provider automatically handles scaling, provisioning, and maintenance.

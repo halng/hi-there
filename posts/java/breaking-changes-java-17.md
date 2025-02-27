@@ -9,6 +9,8 @@ prev: introduction-to-java
 
 Java 17, the latest long-term support (LTS) release since Java 11, brings several changes, enhancements, and new features to the language and platform. While it introduces improvements that make development easier and more efficient, it also has breaking changes that could potentially impact existing codebases. This blog post delves into the major breaking changes that developers should be aware of when migrating to Java 17.
 
+## Contents
+
 ## 1. The Removal of Deprecated Features
 
 ### a. Removal of Nashorn JavaScript Engine

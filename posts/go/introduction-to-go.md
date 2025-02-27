@@ -5,6 +5,8 @@ authors:
     - Hal Nguyen
 ---
 
+## Contents
+
 ## A Beginner's Guide to Go: Essential Concepts
 
 Go, often referred to as Golang, is a modern programming language developed by Google. Known for its simplicity, efficiency, and concurrency, Go has gained significant popularity in recent years. This blog post will introduce you to the fundamental concepts of Go programming.

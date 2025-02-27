@@ -10,6 +10,8 @@ next:
 
 `defer` is one of those small but powerful tools that really enhances Go’s efficiency and readability. This keyword help manage resources and optimize program performance. Let’s dive into the `defer` keyword in Go and explore its use cases.
 
+## Contents
+
 ## What is the `defer` keyword?
 
 - The `defer` keyword is used to schedule a function call to run after the function containing it has completed. It’s commonly used for cleanup operations, like closing files, releasing resources, or unlocking mutexes, ensuring that these tasks are completed even if an error or a return statement interrupts the function.

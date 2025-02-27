@@ -9,6 +9,8 @@ prev: breaking-changes-java-17
 
 Java 24 is around the corner, bringing some exciting new features and updates to the language and the JVM. Whether you're a seasoned Java developer or just keeping tabs on the latest improvements, this release is designed to make Java more efficient, powerful, and developer-friendly. In this blog post, we’ll walk through the most notable updates that come with Java 24, based on the key JEPs (JDK Enhancement Proposals) in this release.
 
+## Contents
+
 ## 1. JEP 472: Prepare to Restrict the Use of JNI*
 
 ![JNI](/assets/image-128.png)
