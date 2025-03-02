@@ -4,8 +4,7 @@ slug: design-pattern-in-java-singleton
 date: '2025-02-25'
 authors: 
     - Hal Ng
-prev: 
-next: 
+relates:
 ---
 
 *What is the Signleton Pattern and its principle? How can we use it to improve our code? How to implement it in Java and so on... In this blog post we are going to learn more about it. Let's dive in!!*

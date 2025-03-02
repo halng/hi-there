@@ -4,8 +4,7 @@ slug: jdbc-basics-connection-pooling-and-orm-frameworks-a-comprehensive-guide
 date: '2024-11-20'
 authors: 
     - Hal Ng
-prev: 
-next: 
+relates: 
 ---
 
 Interacting with databases is a critical part of most applications. In the Java ecosystem, developers have multiple tools to manage database operations, from **JDBC** for low-level database interaction to **connection pooling** for performance optimization and **ORM frameworks** like Hibernate for high-level abstraction. This blog offers a detailed explanation of these tools, highlighting their functionality, advantages, and drawbacks.

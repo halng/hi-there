@@ -26,6 +26,9 @@ importers:
       gray-matter:
         specifier: ^4.0.3
         version: 4.0.3
+      hi-there:
+        specifier: 'link:'
+        version: 'link:'
       highlight.js:
         specifier: ^11.10.0
         version: 11.11.1

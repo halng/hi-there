@@ -3,8 +3,8 @@ title: A Deeper Dive into Rust Beyond the Basics
 date: '2024-10-12'
 authors:
     - Hal Nguyen
-next: ''
-prev: 'introduction-to-rust'
+relates: 
+    - 'introduction-to-rust'
 ---
 
 ## Contents

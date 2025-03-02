@@ -4,8 +4,8 @@ slug: the-defer-keyword-in-go
 date: '2024-11-09'
 authors: 
     - Hal Ng
-prev: introduction-to-go
-next: 
+relates: 
+    - introduction-to-go
 ---
 
 `defer` is one of those small but powerful tools that really enhances Go’s efficiency and readability. This keyword help manage resources and optimize program performance. Let’s dive into the `defer` keyword in Go and explore its use cases.

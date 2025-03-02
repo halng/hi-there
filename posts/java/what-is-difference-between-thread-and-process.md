@@ -3,8 +3,8 @@ title: What is difference between Thread and Process
 date: '2024-11-06'
 authors:
     - Hal Nguyen
-prev: 
-next: how-to-create-threads-in-java
+relates: 
+  - how-to-create-threads-in-java
 ---
 ## Contents
 

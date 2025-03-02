@@ -3,8 +3,8 @@ title: Introducing Rust - A Systems Programming Language
 date: '2024-10-12'
 authors:
     - Hal Nguyen
-next: 'introduction-to-rust-part-2'
-prev: ''
+relates: 
+    - 'introduction-to-rust-part-2'
 ---
 
 ## Contents
