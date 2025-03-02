@@ -75,27 +75,60 @@ export default async function Post({ params }: Params) {
         <Box sx={{ display: "flex", justifyContent: "center" }}>
           <Typography
             variant="h2"
-            sx={{ fontStyle: "oblique", marginTop: "2rem", marginBottom: "2rem" }}
+            sx={{
+              fontStyle: "oblique",
+              marginTop: "2rem",
+              marginBottom: "2rem",
+            }}
           >
             {postData.title}
           </Typography>
         </Box>
 
-        {/* <Box sx={{ display: "flex", justifyContent: "right" }}>
-          <Typography variant="subtitle2" sx={{ fontStyle: "italic" }}>
-            {postData.author} - {postData.date}
-          </Typography>
-        </Box> */}
-
-      <Divider  />
+        <Divider />
 
         <ShowBlogContent content={postData.contentHtml} />
+
+        <Divider />
+
+        {/* // Show related posts */}
+        {postData.relates.length > 0 && (
+          <Typography
+            variant="h5"
+            sx={{
+              fontStyle: "oblique",
+              marginTop: "2rem",
+              marginBottom: "2rem",
+            }}
+          >
+            Related Posts
+          </Typography>
+        )}
+        <Box
+          sx={{
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+          }}
+        >
+          {postData.relates.length > 0 &&
+            postData.relates.map((relate, index) => (
+              <Link
+                key={relate.slug}
+                href={`/blogs/${params.category}/${relate.slug}`}
+                sx={{ padding: "0 0rem" }}
+              >
+                {index + 1}. {relate.title}
+              </Link>
+            ))}
+        </Box>
 
         <Box
           sx={{
             display: "flex",
             justifyContent: "left",
             padding: "1rem 0 0 0",
+            marginTop: "2rem",
           }}
         >
           <Button
@@ -109,33 +142,6 @@ export default async function Post({ params }: Params) {
           >
             Edit this page
           </Button>
-        </Box>
-
-        <Divider />
-
-        <Box
-          sx={{
-            display: "flex",
-            justifyContent: "center",
-            padding: "1rem 0 0 0",
-          }}
-        >
-          {postData.prev.slug && (
-            <Link
-              href={`/blogs/${params.category}/${postData.prev.slug}`}
-              sx={{ padding: "0 1rem" }}
-            >
-              {`< ${postData.prev.title}`}
-            </Link>
-          )}
-          {postData.next.slug && (
-            <Link
-              href={`/blogs/${params.category}/${postData.next.slug}`}
-              sx={{ padding: "0 1rem" }}
-            >
-              {`${postData.next.title} >`}
-            </Link>
-          )}
         </Box>
       </Box>
     </>

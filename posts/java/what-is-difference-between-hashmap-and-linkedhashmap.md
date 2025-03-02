@@ -3,8 +3,8 @@ title: What is difference between HashMap and LinkedHashMap
 date: '2024-11-06'
 authors:
     - Hal Nguyen
-prev: list-set-map-and-their-implementations-in-java
-next:
+relates: 
+  - list-set-map-and-their-implementations-in-java
 ---
 
 Let's explore the Map hierarchy and its implementations.

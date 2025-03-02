@@ -4,8 +4,8 @@ slug: oop-in-java
 date: '2024-11-10'
 authors: 
     - Hal Ng
-prev: introduction-to-java
-next: 
+relates:
+    - introduction-to-java
 ---
 
 ## Contents

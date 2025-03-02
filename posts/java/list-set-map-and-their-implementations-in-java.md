@@ -3,8 +3,8 @@ title: List Set Map and their implementation in Java
 date: '2024-10-29'
 authors:
     - Hal Nguyen
-next: what-different-between-hashmap-and-linkedhashmap
-prev: ''
+relates: 
+    - what-different-between-hashmap-and-linkedhashmap
 ---
 
 ## Contents
@@ -51,10 +51,7 @@ There are two general purpose List implementation - `ArrayList` and `LinkedList`
 
 ### 1.1 ArrayList
 
-
 ### 1.2 LinkedList
-
-
 
 ## Set
 

@@ -4,15 +4,13 @@ export interface PostData {
   date: string;
   contentHtml: string;
   author: string[];
-  next: {
-    title: string;
-    slug: string;
-  };
-  prev: {
-    title: string;
-    slug: string;
-  };
+  relates: RelatedPost[];
 }
+
+export interface RelatedPost {
+  title: string;
+  slug: string;
+};
 
 export interface Params {
   params: {
@@ -24,8 +22,8 @@ export interface Params {
 export interface Metadata {
   title: string;
   description: string;
-  slug: string,
-  tag: string,
-  authors: string[],
-  date: string,
+  slug: string;
+  tag: string;
+  authors: string[];
+  date: string;
 }

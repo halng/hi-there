@@ -3,8 +3,8 @@ title: What’s New in Java 24 - Key Features and Enhancements
 date: '2024-10-21'
 authors:
     - Hal Nguyen
-next: 
-prev: breaking-changes-java-17
+relates: 
+    - breaking-changes-java-17
 ---
 
 Java 24 is around the corner, bringing some exciting new features and updates to the language and the JVM. Whether you're a seasoned Java developer or just keeping tabs on the latest improvements, this release is designed to make Java more efficient, powerful, and developer-friendly. In this blog post, we’ll walk through the most notable updates that come with Java 24, based on the key JEPs (JDK Enhancement Proposals) in this release.
@@ -93,7 +93,6 @@ public class ClassFileReaderExample {
 ```
 
 In this example, the `ClassFile.read()` method reads the byte array of a `.class` file and parses it into a structured `ClassFile` object. From here, you can explore the contents of the class, such as the constant pool, fields, and methods.
-
 
 [Read more](https://openjdk.org/jeps/484)
 

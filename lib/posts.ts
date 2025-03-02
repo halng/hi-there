@@ -3,10 +3,10 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import { remark } from "remark";
-import remarkGfm from "remark-gfm"; 
+import remarkGfm from "remark-gfm";
 import remarkToc from "remark-toc";
 import html from "remark-html";
-import { Metadata, Params, PostData } from "./type";
+import { Metadata, Params, PostData, RelatedPost } from "./type";
 import MappingData from "../posts/config.json";
 const postsDirectory = path.join(process.cwd(), "posts");
 
@@ -47,22 +47,24 @@ export async function getPostDataWithContent(
 
   const contentHtml = processedContent.toString();
 
-  const nextPost = getPostMetadata(category, matterResult.data.next);
-  const prevPost = getPostMetadata(category, matterResult.data.prev);
+  const relates = matterResult.data.relates;
+  const relatedContent: RelatedPost[] = [];
+  if (relates) {
+    for (const relate of relates) {
+      const post = getPostMetadata(category, relate);
+      relatedContent.push({
+        title: post[0],
+        slug: relate,
+      });
+    }
+  }
 
   return {
     title: matterResult.data.title,
     date: matterResult.data.date,
     author: matterResult.data.authors,
     contentHtml: contentHtml,
-    next: {
-      title: nextPost[0],
-      slug: matterResult.data.next,
-    },
-    prev: {
-      title: prevPost[0],
-      slug: matterResult.data.prev,
-    },
+    relates: relatedContent,
   };
 }
 
@@ -72,8 +74,13 @@ export const getMetadata = (category: string | null): Metadata[] => {
   if (category) {
     data = data.filter((ob) => ob.name === category);
   }
+
   data.forEach((object) => {
     object.posts.forEach((post) => {
+      if (!post.isPublished) {
+        return;
+      }
+
       const fileContent = getFileContent(object.name, post.slug);
       const matterResult = matter(fileContent);
       results.push({
@@ -113,6 +120,10 @@ export function getPostMetadata(category: string, slug: string): string[] {
 export function getSupportedCategory(): string[] {
   const categories: string[] = [];
   MappingData.forEach((data) => {
+    const posts = data.posts.filter((post) => post.isPublished);
+    if (posts.length === 0) {
+      return;
+    }
     categories.push(data.name);
   });
 
