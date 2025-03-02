@@ -20,8 +20,6 @@ def new():
     title = input("Enter title: ")
     tag = input("Enter tags separated by comma: ")
     author = input("Enter author: ")
-    prev = input("Enter previous post slug: ")
-    next = input("Enter next post slug: ")
 
     to_day = date.today()
 
@@ -50,12 +48,11 @@ def new():
         date: '{date}'
         authors: 
             - {author}
-        prev: {prev}
-        next: {next}
+        relates:
         ---
         """
         f.write(template.format(title=title, slug=slug,
-                date=to_day, author=author, prev=prev, next=next))
+                date=to_day, author=author))
 
 
 if __name__ == "__main__":

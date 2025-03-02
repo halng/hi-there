@@ -6,47 +6,70 @@
         "title": "Introduction to Java: Understanding the Basics and Core Concepts",
         "slug": "introduction-to-java",
         "description": "Java is one of the most popular programming languages in the world, known for its versatility, efficiency, and platform independence. Used by millions of developers globally, Java powers everything from mobile applications to large-scale enterprise systems.",
-        "tags": ["java", "programming"],
+        "tags": [
+          "java",
+          "programming"
+        ],
         "isPublished": true
       },
       {
         "title": "Breaking changes: Java 17",
         "slug": "breaking-changes-java-17",
         "description": "Java 17 is the latest long-term support (LTS) release of the language, bringing several new features and enhancements to the platform. In this post, we'll explore some of the key additions in Java 17 and how they can benefit developers.",
-        "tags": ["java", "programming", "java-17"],
-
+        "tags": [
+          "java",
+          "programming",
+          "java-17"
+        ],
         "isPublished": true
       },
       {
         "title": "What\u2019s New in Java 24 - Key Features and Enhancements",
         "slug": "whats-new-in-java-24-key-features-and-enhancements",
         "description": "Java 24 is around the corner, bringing some exciting new features and updates to the language and the JVM.",
-        "tags": ["java", "breaking-change", "java-24"],
-
+        "tags": [
+          "java",
+          "breaking-change",
+          "java-24"
+        ],
         "isPublished": true
       },
       {
         "title": "List, Set, Map and their implementations in Java",
         "slug": "list-set-map-and-their-implementations-in-java",
         "description": "Java provides several interfaces and classes to work with collections of objects. In this post, we'll explore the List, Set, and Map interfaces, along with their common implementations.",
-        "tags": ["java", "collections", "list", "set", "map"],
-
+        "tags": [
+          "java",
+          "collections",
+          "list",
+          "set",
+          "map"
+        ],
         "isPublished": true
       },
       {
         "title": "What different between HashMap and LinkedHashMap",
         "slug": "what-is-difference-between-hashmap-and-linkedhashmap",
         "description": "This blog post provides a comprehensive comparison of Java's HashMap and LinkedHashMap, two essential Map interface implementations in the Java Collection framework. Learn the key differences, advantages, and use cases of HashMap and LinkedHashMap, along with practical examples and performance insights. Perfect for developers seeking to optimize Java applications by choosing the right data structure for managing key-value pairs effectively.",
-        "tags": ["java", "streams", "HashMap", "LinkedHashMap", "Map"],
-
+        "tags": [
+          "java",
+          "streams",
+          "HashMap",
+          "LinkedHashMap",
+          "Map"
+        ],
         "isPublished": true
       },
       {
         "title": "What is difference between Thread and Process",
         "slug": "what-is-difference-between-thread-and-process",
         "description": "Understand the differences between threads and processes in operating systems. This guide covers definitions, states, memory usage, resource allocation, synchronization needs, and more, offering a clear comparison for developers and students. Learn how threads and processes work together to optimize program execution and system performance.",
-        "tags": ["java", "concurrency", "thread", "process"],
-
+        "tags": [
+          "java",
+          "concurrency",
+          "thread",
+          "process"
+        ],
         "isPublished": true
       },
       {
@@ -60,31 +83,38 @@
           "Future",
           "CompletableFuture"
         ],
-
         "isPublished": true,
         "description": "Creating and managing threads is crucial for building efficient and responsive applications."
       },
       {
         "title": "OOP in Java",
         "slug": "oop-in-java",
-        "tags": ["OOP", "Java"],
-
+        "tags": [
+          "OOP",
+          "Java"
+        ],
         "isPublished": true,
         "description": "This post will introduce OOP concepts and illustrate how they are applied in Java, one of the most popular OOP languages."
       },
       {
         "title": "JDBC Basics, Connection Pooling, and ORM Frameworks: A Comprehensive Guide",
         "slug": "jdbc-basics-connection-pooling-and-orm-frameworks-a-comprehensive-guide",
-        "tags": ["JDBC", "Connection Pooling", " ORM"],
-
+        "tags": [
+          "JDBC",
+          "Connection Pooling",
+          " ORM"
+        ],
         "isPublished": true,
         "description": "By understanding and leveraging these tools appropriately, developers can build scalable, efficient, and maintainable database-driven applications in Java."
       },
       {
         "title": "Design Pattern in Java - Singleton",
         "slug": "design-pattern-in-java-singleton",
-        "tags": ["singleton", "design pattern", "java"],
-
+        "tags": [
+          "singleton",
+          "design pattern",
+          "java"
+        ],
         "isPublished": true,
         "description": "This post explores the Singleton pattern in Java, explaining its purpose, benefits, and various implementation methods. It also covers best practices to ensure efficient, thread-safe, and maintainable Singleton usage in real-world applications."
       }
@@ -96,8 +126,11 @@
       {
         "title": "Spring Boot Auto-Configuration Explained: From Basics to Customization",
         "slug": "spring-boot-auto-configuration-explained-from-basics-to-customization",
-        "tags": ["spring-boot", "auto configuration", "spring"],
-
+        "tags": [
+          "spring-boot",
+          "auto configuration",
+          "spring"
+        ],
         "isPublished": true,
         "description": "Have you been working with Spring Boot for a long time? Have you ever wondered what sets it apart from traditional Spring?"
       }
@@ -110,8 +143,11 @@
         "title": "Introduction to AWS: Understanding the Basics and Core Concepts",
         "slug": "introduction-to-aws",
         "description": "Amazon Web Services (AWS) is a comprehensive cloud computing platform that offers a wide range of services to individuals and businesses of all sizes. By leveraging AWS, you can access and utilize computing resources, storage, networking, databases, and more, without the need for significant upfront investment in hardware or infrastructure.",
-        "tags": ["aws", "cloud", "devops"],
-
+        "tags": [
+          "aws",
+          "cloud",
+          "devops"
+        ],
         "isPublished": true
       },
       {
@@ -129,7 +165,18 @@
           "Serverless Deployment",
           "Serverless Benefits"
         ],
-
+        "isPublished": true
+      },
+      {
+        "title": "AWS Fundamentals - Getting Started (Part 1)",
+        "slug": "aws-fundamentals-getting-started-part-1",
+        "tags": [
+          "AWS",
+          "AWS Fundamentals",
+          "AWS compute",
+          "AWS web services"
+        ],
+        "description": "This post covers AWS compute services, including EC2, Lambda, and container solutions like ECS/EKS, helping you choose the right option for different workloads.",
         "isPublished": true
       }
     ]
@@ -141,16 +188,22 @@
         "title": "Introducing Rust - A Systems Programming Language",
         "slug": "introduction-to-rust",
         "description": "Rust is a modern systems programming language that combines performance, safety, and expressiveness. It's designed to be a safer alternative to languages like C and C++ while maintaining their efficiency. Rust's unique features make it a popular choice for building high-performance applications, operating systems, and embedded systems.",
-        "tags": ["rust", "programming", "systems-programming"],
-
+        "tags": [
+          "rust",
+          "programming",
+          "systems-programming"
+        ],
         "isPublished": false
       },
       {
         "title": "A Deeper Dive into Rust Beyond the Basics",
         "slug": "introduction-to-rust-part-2",
         "description": "Rust's ownership system is one of its most distinctive features. Every value in Rust has an owner, and only one owner at a time. When a value goes out of scope, its owner is dropped, and the value is destroyed. This system helps prevent memory leaks and data races.",
-        "tags": ["rust", "programming", "systems-programming"],
-
+        "tags": [
+          "rust",
+          "programming",
+          "systems-programming"
+        ],
         "isPublished": false
       }
     ]
@@ -162,14 +215,20 @@
         "title": "A Beginner's Guide to Go: Essential Concepts",
         "slug": "introduction-to-go",
         "description": "Go, often referred to as Golang, is a modern programming language developed by Google. Known for its simplicity, efficiency, and concurrency, Go has gained significant popularity in recent years. This blog post will introduce you to the fundamental concepts of Go programming.",
-        "tags": ["go", "programming"],
-
+        "tags": [
+          "go",
+          "programming"
+        ],
         "isPublished": true
       },
       {
         "title": "The defer keyword in Go",
         "slug": "the-defer-keyword-in-go",
-        "tags": ["defer", "Go", "LIFO"],
+        "tags": [
+          "defer",
+          "Go",
+          "LIFO"
+        ],
         "isPublished": true,
         "description": "defer is one of those small but powerful tools that really enhances Go\u2019s efficiency and readability. This keyword help manage resources and optimize program performance. Let\u2019s dive into the defer keyword in Go and explore its use cases."
       }
@@ -182,8 +241,10 @@
         "title": "A Beginner's Guide to Python: Essential Concepts",
         "slug": "introduction-to-python",
         "description": "A high-level, general-purpose programming language, is renowned for its readability, simplicity, and versatility. It's widely used in various fields, from web development and data science to automation and scientific computing. Let's dive into the fundamental concepts of Python programming.",
-        "tags": ["python", "programming"],
-
+        "tags": [
+          "python",
+          "programming"
+        ],
         "isPublished": true
       }
     ]
@@ -194,8 +255,12 @@
       {
         "title": "What is the difference between Postgres DB and other database",
         "slug": "what-is-the-difference-between-postgres-db-and-other-database",
-        "tags": ["database", "postgres", "sql", "web"],
-
+        "tags": [
+          "database",
+          "postgres",
+          "sql",
+          "web"
+        ],
         "isPublished": true,
         "description": "PostgreSQL (often referred to as Postgres) is a powerful, open-source relational database management system (RDBMS). It stands out from other databases due to its features, design philosophy, and use cases."
       }
