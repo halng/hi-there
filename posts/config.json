@@ -176,7 +176,7 @@
           "AWS compute",
           "AWS web services"
         ],
-        "description": "",
+        "description": "This post covers AWS compute services, including EC2, Lambda, and container solutions like ECS/EKS, helping you choose the right option for different workloads.",
         "isPublished": true
       }
     ]

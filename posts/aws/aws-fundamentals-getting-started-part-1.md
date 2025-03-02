@@ -10,6 +10,8 @@ relates:
 
 *Hi everyone, In this course, we will go though the key concepts behind cloud computing and explore AWS services covering compute, storage, databases, and networking. Let's get started!*
 
+## Contents
+
 ## AWS Compute
 
 - On-premises computing requires significant time, money, and effort to set up and maintain, from researching and purchasing hardware to installing and securing servers in a data center. Scaling is difficult, and unused resources lead to wasted investment.
