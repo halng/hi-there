@@ -1,0 +1,13 @@
+# .markdownlint-cli2.yaml
+# Custom rules configuration
+globs:
+  - 'README.md'
+  - 'posts/**/*.md'
+
+fix: true
+config:
+  default: true
+  MD013: false
+  MD029: false
+  MD033: # Allow inline HTML
+    allowed_elements: [ "br", "hr", "sup" ]

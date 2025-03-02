@@ -75,8 +75,6 @@ export const getMetadata = (category: string | null): Metadata[] => {
     data = data.filter((ob) => ob.name === category);
   }
 
-  // only get post with isPublished = true
-
   data.forEach((object) => {
     object.posts.forEach((post) => {
       if (!post.isPublished) {
@@ -122,6 +120,10 @@ export function getPostMetadata(category: string, slug: string): string[] {
 export function getSupportedCategory(): string[] {
   const categories: string[] = [];
   MappingData.forEach((data) => {
+    const posts = data.posts.filter((post) => post.isPublished);
+    if (posts.length === 0) {
+      return;
+    }
     categories.push(data.name);
   });
 

@@ -51,10 +51,7 @@ There are two general purpose List implementation - `ArrayList` and `LinkedList`
 
 ### 1.1 ArrayList
 
-
 ### 1.2 LinkedList
-
-
 
 ## Set
 

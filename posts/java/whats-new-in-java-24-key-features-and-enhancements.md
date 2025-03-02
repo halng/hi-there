@@ -94,7 +94,6 @@ public class ClassFileReaderExample {
 
 In this example, the `ClassFile.read()` method reads the byte array of a `.class` file and parses it into a structured `ClassFile` object. From here, you can explore the contents of the class, such as the constant pool, fields, and methods.
 
-
 [Read more](https://openjdk.org/jeps/484)
 
 ## 4. JEP 485: Stream Gatherers

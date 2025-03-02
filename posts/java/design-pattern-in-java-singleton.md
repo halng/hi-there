@@ -16,16 +16,17 @@ relates:
 - **Singleton** pattern is a *creational design pattern** that restricts the initialization of a class to ensure that only one instance of the class can be created while providing a global access point to this instances.
 - This pattern can be used for wide range of purpose such as logging, caching, and thread pool. It's also combine with other design pattern like Builder, Facade, Prototype,etc...
 
-
 <sup>* Creational: the design patterns that deal with object creation</sup>
 
 ## 2. Pros and Cons
+
 ### 2.1 Pros
 
 - Can be sure that a class has only sone single instance
 - Gaining a global access to that instance and ensure consistent behavior across application.
 - The signleton object is initialized only when it's requested for the first time.
 - Saves memory by preventing multiple object creation.
+
 ### 2.2 Cons
 
 - Violate the *Signle Responsibility Principle*
@@ -41,7 +42,6 @@ The implementation of a signleton pattern include 5 steps below:
 - *Step 3*: Implement a initialization inde the static method.
 - *Step 4*: Make the constructor of the class private. The static method of the class still involve the private constructor, but not for outside
 - *Step 5*: Update code to call directly to the signleton's constructor.
-
 
 There are multiple ways to implement the Singleton pattern in Java, each with its own advantages and limits. The choice of the implementation deplends on factors such as memory efficiency, thread safety, and performance. Below are most commonly used approaches:
 
@@ -147,10 +147,10 @@ public class Singleton {
 
 ## 4. Best Practice
 
-* Use the Singleton pattern when a class should have only one instance shared across the application. 
-* Ensure thread safety in multi-threaded environments.
-* Prevent reflection-based attacks.
-* Be mindful of serialization issues.
-* Consider dependency injection as an alternative in testable applications.
-* Avoid unnecessary use of Singleton.
-* Allow flexibility if needed.
+- Use the Singleton pattern when a class should have only one instance shared across the application.
+- Ensure thread safety in multi-threaded environments.
+- Prevent reflection-based attacks.
+- Be mindful of serialization issues.
+- Consider dependency injection as an alternative in testable applications.
+- Avoid unnecessary use of Singleton.
+- Allow flexibility if needed.

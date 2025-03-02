@@ -24,8 +24,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: "npm"
-      - uses: DavidAnson/markdownlint-cli2-action@v19
-        with:
-          globs: "**/*.md"
-          fix: true
+      - name: Install dependencies
+        run: npm install -g markdownlint-cli2 && npm install
+      - name: lint markdown files
+        run: npm run lint

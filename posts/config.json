@@ -143,7 +143,7 @@
         "description": "Rust is a modern systems programming language that combines performance, safety, and expressiveness. It's designed to be a safer alternative to languages like C and C++ while maintaining their efficiency. Rust's unique features make it a popular choice for building high-performance applications, operating systems, and embedded systems.",
         "tags": ["rust", "programming", "systems-programming"],
 
-        "isPublished": true
+        "isPublished": false
       },
       {
         "title": "A Deeper Dive into Rust Beyond the Basics",
@@ -151,7 +151,7 @@
         "description": "Rust's ownership system is one of its most distinctive features. Every value in Rust has an owner, and only one owner at a time. When a value goes out of scope, its owner is dropped, and the value is destroyed. This system helps prevent memory leaks and data races.",
         "tags": ["rust", "programming", "systems-programming"],
 
-        "isPublished": true
+        "isPublished": false
       }
     ]
   },

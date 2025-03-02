@@ -15,14 +15,13 @@ relates:
 ## 1. Introduction
 
 - Spring Boot is an open-source project built on the Spring Framework.
-- Spring Boot provides the ability to create standalone Spring application that can run immediately without the need for XML configuration or writing lots of additional code. 
+- Spring Boot provides the ability to create standalone Spring application that can run immediately without the need for XML configuration or writing lots of additional code.
 - One of the key features that makes Spring Boot so powerful is **auto-configuration**—a mechanism that simplifies setup and eliminates boilerplate code.
 - Spring Boot configures Spring and other third-party frameworks automatically by the default **convention over configuration*** principle.
 
 <sup>* convention over configuration: in other word, coding by convention, is a concept used in application frameworks to reduce the number of decisions that a developer has to make.  It adheres to the "don't repeat yourself" principle to avoid writing redundant code.</sup>
 
 - For example, if we add Spring Web as a dependency, Spring Boot will automatically configure an embedded web server (like Tomcat or Jetty for Reactive) and register key Spring MVC components without requiring any explicit configuration
-
 
 ## 2. How Auto-Configuration Works?
 
@@ -34,7 +33,6 @@ Before we dive into how auto-configuration works, let’s first understand the `
 
 - The `@Conditional` annotation allows Spring to register beans only when certain conditions are met. It serves as the foundation for many Spring Boot auto-configuration extensions, enabling the framework to dynamically configure components based on the classpath, environment, or application properties.
 - Spring Boot leverages `@Conditional` internally to determine whether to enable or disable specific configurations. It is commonly used alongside annotations like `@Component`, `@Configuration`, `@Bean`, and custom stereotype annotations.
-
 
 2. **How @Conditional Works in Spring Boot**
 
@@ -58,7 +56,7 @@ Before we dive into how auto-configuration works, let’s first understand the `
     Here, the `mockDataSource()` bean will only be registered if the condition in `DevEnvironmentCondition` evaluates to true.
 
 - To control when the bean should be registered, we implement the Condition interface:
-    
+
     ```java
     public class DevEnvironmentCondition implements Condition {
         @Override
@@ -74,6 +72,7 @@ Before we dive into how auto-configuration works, let’s first understand the `
 ### 2.2 How Does Spring Boot Determine What to Auto-Configure?
 
 Auto-configuration is triggered based on **conditional annotations**, such as:
+
 - `@ConditionalOnClass`: Applies configuration if a specific class is present.
 - `@ConditionalOnMissingBean`: Ensures auto-configuration only runs if no user-defined bean exists.
 - `@ConditionalOnProperty`: Enables/disables configurations based on properties.
@@ -94,9 +93,9 @@ public class DataSourceAutoConfiguration {
     }
 }
 ```
+
 - If DataSource is on the *classpath*, this configuration is applied.
 - If the user defines their own *DataSource* bean, auto-configuration is skipped.
-
 
 ### 2.3 Annotation @EnableAutoConfiguration
 
@@ -115,9 +114,8 @@ public class DemoApplication {
 }
 ```
 
-**Now Let's see how it works**
+**Now Let's see how it works:** Let’s say we add the Spring Boot JDBC Starter dependency in **pom.xml**:
 
-Let’s say we add the Spring Boot JDBC Starter dependency in **pom.xml**:
 ```xml
 <dependency>
     <groupId>org.springframework.boot</groupId>
@@ -132,17 +130,20 @@ Let’s say we add the Spring Boot JDBC Starter dependency in **pom.xml**:
 ```
 
 With this configuration, Spring Boot will:
+
 - Step 1: Detect that H2 is present and configure an embedded database.
 - Step 2: Enable Spring Data JPA without requiring explicit DataSource bean definitions.
 - Step 3: Automatically set up Hibernate as the default JPA provider.
 
 We can now create a repository interface without manually setting up a `DataSource` or `EntityManager`:
+
 ```java
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {
     List<User> findByLastName(String lastName);
 }
 ```
+
 Spring Boot auto-configures everything needed for this repository to work!
 
 ## 3. Recap
