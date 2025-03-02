@@ -15,7 +15,6 @@
     "@mui/icons-material": "^6.1.2",
     "@mui/material": "^6.1.2",
     "gray-matter": "^4.0.3",
-    "hi-there": "link:",
     "highlight.js": "^11.10.0",
     "jsdom": "^25.0.1",
     "markdownlint-cli2": "^0.17.2",
