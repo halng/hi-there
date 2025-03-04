@@ -178,6 +178,18 @@
         ],
         "description": "This post covers AWS compute services, including EC2, Lambda, and container solutions like ECS/EKS, helping you choose the right option for different workloads.",
         "isPublished": true
+      },
+      {
+        "title": "AWS Fundamentals - Getting Started (Part 2)",
+        "slug": "aws-fundamentals-getting-started-part-2",
+        "tags": [
+          "aws",
+          "networking",
+          "VPC",
+          "subnet"
+        ],
+        "isPublished": true,
+        "description": "In this post, we delve into the core networking components of AWS. You’ll learn how IP addressing, CIDR notation, Virtual Private Clouds (VPCs), subnets, and routing work together to create a secure and scalable network infrastructure. We’ll also discuss the mechanisms for securing your network through Network ACLs and Security Groups, providing a solid foundation for your AWS cloud architecture."
       }
     ]
   },
