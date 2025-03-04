@@ -35,7 +35,8 @@ def new():
         "title": title,
         "slug": slug,
         "tags": tag.split(","),
-        "description": ""
+        "description": "",
+        "isPublished": True,
     })
 
     with open("./posts/config.json", "w") as f:
