@@ -61,12 +61,7 @@ Here’s a comparison table of IPv4 and IPv6:
 
 - CIDR (Classless Inter-Domain Routing) is a method for allocating IP addresses and routing that replaces the old classful addressing system (Class A, B, C). It allows more efficient use of IP addresses by enabling variable-length subnet masking (VLSM), reducing wastage, and improving routing efficiency.
 
-- For example, the CIDR notation `192.168.1.0/24`
-    It begins with a starting IP address and it seperated by  `/` followed by the number. The number at the end specifies how many of the bits of the IP address are fixed. In this case, the first 24 bits are fixed, and the remaining 8 bits are variable:
-
-      - The fixed part: `192.168.1`
-      - The variable part: `0`
-    32 total bits subtracted by 24 fixed bits leaves 8 flexible bits. Each of these flexible bits can be either 0 or 1, because they are binary. That means that you have two choices for each of the 8 bits, providing 256 IP addresses in that IP range.
+- For example, the CIDR notation `192.168.1.0/24`. It begins with a starting IP address and it seperated by  `/` followed by the number. The number at the end specifies how many of the bits of the IP address are fixed. In this case, the first 24 bits are fixed, and the remaining 8 bits are variable the fixed part is 192.168.1 and the variable part is 0. 32 total bits subtracted by 24 fixed bits leaves 8 flexible bits. Each of these flexible bits can be either 0 or 1, because they are binary. That means that you have two choices for each of the 8 bits, providing 256 IP addresses in that IP range.
 
 - The higher the number after the /, the smaller the number of IP addresses in your network. For example, a range of 192.168.1.0/24 is smaller than 192.168.1.0/16.
 
