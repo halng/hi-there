@@ -4,7 +4,6 @@ import path from "path";
 import { unified } from 'unified';
 import remarkParse from 'remark-parse';
 import matter from "gray-matter";
-// import { remark } from "remark";
 import remarkGfm from "remark-gfm";
 import remarkToc from "remark-toc";
 import html from "remark-html";
