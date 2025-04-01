@@ -64,8 +64,8 @@ Here’s a comparison table of IPv4 and IPv6:
 - For example, the CIDR notation `192.168.1.0/24`
     It begins with a starting IP address and it seperated by  `/` followed by the number. The number at the end specifies how many of the bits of the IP address are fixed. In this case, the first 24 bits are fixed, and the remaining 8 bits are variable:
 
-      - `192.168.1` is the fixed part
-      - `0` is the variable part
+      - The fixed part: `192.168.1`
+      - The variable part: `0`
     32 total bits subtracted by 24 fixed bits leaves 8 flexible bits. Each of these flexible bits can be either 0 or 1, because they are binary. That means that you have two choices for each of the 8 bits, providing 256 IP addresses in that IP range.
 
 - The higher the number after the /, the smaller the number of IP addresses in your network. For example, a range of 192.168.1.0/24 is smaller than 192.168.1.0/16.
