@@ -1,8 +1,10 @@
 // lib/posts.ts
 import fs from "fs";
 import path from "path";
+import { unified } from 'unified';
+import remarkParse from 'remark-parse';
 import matter from "gray-matter";
-import { remark } from "remark";
+// import { remark } from "remark";
 import remarkGfm from "remark-gfm";
 import remarkToc from "remark-toc";
 import html from "remark-html";
@@ -39,10 +41,16 @@ export async function getPostDataWithContent(
 
   const matterResult = matter(fileContents);
 
-  const processedContent = await remark()
-    .use(html)
-    .use(remarkToc)
+  const processedContent = await unified()
+    .use(remarkParse)
     .use(remarkGfm)
+    .use(remarkToc, {
+      heading: 'Contents',
+      tight: true,
+    })
+    .use(html, {
+      sanitize: false,
+    })
     .process(matterResult.content);
 
   const contentHtml = processedContent.toString();
