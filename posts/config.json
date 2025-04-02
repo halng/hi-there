@@ -117,6 +117,17 @@
         ],
         "isPublished": true,
         "description": "This post explores the Singleton pattern in Java, explaining its purpose, benefits, and various implementation methods. It also covers best practices to ensure efficient, thread-safe, and maintainable Singleton usage in real-world applications."
+      },
+      {
+        "title": "Why Pizza Shops Will Help You Master the Factory Pattern in Java",
+        "slug": "why-pizza-shops-will-help-you-master-the-factory-pattern-in-java",
+        "tags": [
+          "design pattern",
+          "factory",
+          "java"
+        ],
+        "description": "The Factory Pattern is a creational design pattern that provides an interface for creating objects without explicitly specifying their exact classes. It encapsulates the object creation logic in a separate class, called a factory.",
+        "isPublished": true
       }
     ]
   },
@@ -189,7 +200,7 @@
           "subnet"
         ],
         "isPublished": true,
-        "description": "In this post, we delve into the core networking components of AWS. You’ll learn how IP addressing, CIDR notation, Virtual Private Clouds (VPCs), subnets, and routing work together to create a secure and scalable network infrastructure. We’ll also discuss the mechanisms for securing your network through Network ACLs and Security Groups, providing a solid foundation for your AWS cloud architecture."
+        "description": "In this post, we delve into the core networking components of AWS. You\u2019ll learn how IP addressing, CIDR notation, Virtual Private Clouds (VPCs), subnets, and routing work together to create a secure and scalable network infrastructure. We\u2019ll also discuss the mechanisms for securing your network through Network ACLs and Security Groups, providing a solid foundation for your AWS cloud architecture."
       }
     ]
   },
