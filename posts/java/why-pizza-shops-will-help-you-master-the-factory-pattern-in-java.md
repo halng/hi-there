@@ -81,6 +81,7 @@ public class OrderService {
     }
 }
 ```
+
 Every time you need a new object type, you're adding another `if` statement. It's like having to rewrite your entire kitchen workflow just to add a new dish to the menu. Not exactly scalable, is it?
 
 Now, back to the Factory Design Pattern, let's see how it shines and manage code as master chef
@@ -134,7 +135,7 @@ Think of it this way: Would you rather have every cook making pizzas their own w
 
 Let's slice up the Factory Pattern like a perfect pizza and examine each piece. But first, let me tell you a story about two pizzerias: "Tony's Traditional Pizza" and "Modern Slice Factory."
 
-**The Traditional Way (Tony's Approach)**
+- **The Traditional Way (Tony's Approach)**
 
 ```java
 public class TonysPizzeria {
@@ -156,7 +157,7 @@ public class TonysPizzeria {
 }
 ```
 
-**The Factory Way (Modern Slice Approach)**
+- **The Factory Way (Modern Slice Approach)**
 Let's break down our factory implementation into three main components:
 
 1. The Product Interface (Our Pizza Blueprint)
@@ -169,6 +170,7 @@ public interface Pizza {
     void box();
 }
 ```
+
 2. The Concrete Products (Our Specific Pizzas)
 
 ```java
@@ -214,7 +216,7 @@ public class ModernPizzaFactory {
 }
 ```
 
-**Putting It All Together (The Modern Kitchen)**
+- **Putting It All Together (The Modern Kitchen)**
 
 ```java
 public class ModernSlicePizzeria {
@@ -273,6 +275,7 @@ public class NYPizzaStore extends PizzaStore {
 ```
 
 How about dynamic for factory behavior? Here's how it implement:
+
 ```java
 public class DynamicPizzaFactory {
     private final Map<PizzaType, Supplier<Pizza>> pizzaRegistry = new HashMap<>();
@@ -294,6 +297,7 @@ public class DynamicPizzaFactory {
 ## 4. Real-World Benefits (Beyond the Kitchen)
 
 ### 4.1. Payment Processing System
+
 Imagine building a payment gateway that needs to handle multiple payment methods:
 
 ```java
@@ -335,6 +339,7 @@ public class PaymentService {
 ```
 
 ### 4.2. Multi Database Connection Manager
+
 When your application needs to work with different types of databases:
 
 ```java
@@ -379,6 +384,7 @@ public class DataService {
 ```
 
 ### 4.3. Document Generator System
+
 For a system that needs to generate different types of documents:
 
 ```java
@@ -421,6 +427,7 @@ public class ReportService {
 ```
 
 Each of these examples demonstrates how the Factory Pattern can:
+
 - Decouple object creation from business logic
 - Provide a consistent way to create different implementations
 - Make the system more maintainable and testable
@@ -430,7 +437,9 @@ Each of these examples demonstrates how the Factory Pattern can:
 ## 5. The Dark Side of Factories: What They Don't Tell You in the Menu
 
 Just like how a fancy restaurant menu doesn't mention the chaos in the kitchen, let's peek behind the curtain and explore the real challenges of using the Factory Pattern.
+
 - Class Explosion: Too Many Cooks in the Kitchen
+
     ```java
         // Before: Simple and straightforward
         public class Pizza { }
@@ -448,6 +457,7 @@ Just like how a fancy restaurant menu doesn't mention the chaos in the kitchen, 
     ```
 
 - Complexity Creep: When the Recipe Gets Too Long
+
     ```java
         public class ComplexPizzaFactory {
             private final IngredientFactory ingredientFactory;
@@ -477,6 +487,7 @@ Just like how a fancy restaurant menu doesn't mention the chaos in the kitchen, 
     ```
 
 - Hidden Costs: The Performance Menu
+
     ```java
     // Each factory call might create new objects
     public class CostlyPizzaFactory {
@@ -492,6 +503,7 @@ Just like how a fancy restaurant menu doesn't mention the chaos in the kitchen, 
     ```
 
 - Debugging Nightmares: Finding the Missing Ingredient
+
     ```java
     // Try debugging this chain of creation
     OrderService orderService = new OrderService(
@@ -509,6 +521,7 @@ Just like how a fancy restaurant menu doesn't mention the chaos in the kitchen, 
     ```
 
 - Maintenance Overhead: Keeping the Kitchen Clean
+
     ```java
     // Adding a new pizza type means touching multiple files
     public interface Pizza { }
@@ -543,6 +556,7 @@ Let's dive deep into how modern Java features transform our factories from good 
 
 1. Type Safety: Catching Errors Before They Happen
 With sealed classes and pattern matching, Java helps us create rock-solid type hierarchies:
+
 ```java
 // Sealed interface ensures only authorized implementations exist
 public sealed interface PaymentProcessor 
@@ -640,6 +654,7 @@ These modern features transform the Factory Pattern from a useful design pattern
 The Factory Pattern, when used correctly, brings order to chaos in object creation. Like a well-run kitchen, it ensures consistency, maintainability, and scalability. Modern Java features have made it even more powerful and elegant.
 
 Remember:
+
 - Keep it simple
 - Use modern Java features
 - Focus on maintainability
