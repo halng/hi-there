@@ -128,6 +128,18 @@
         ],
         "description": "The Factory Pattern is a creational design pattern that provides an interface for creating objects without explicitly specifying their exact classes. It encapsulates the object creation logic in a separate class, called a factory.",
         "isPublished": true
+      },
+      {
+        "title": "The Builder Pattern: Because Nobody Likes a 500-Parameter Constructor!",
+        "slug": "the-builder-pattern-because-nobody-likes-a-500-parameter-constructor",
+        "tags": [
+          "Builder Pattern",
+          "Design Pattern",
+          "Java",
+          "Creational Pattern"
+        ],
+        "description": "The Builder pattern is a creational design pattern used to construct complex objects step by step. It allows you to produce different types and representations of an object using the same construction code.",
+        "isPublished": true
       }
     ]
   },

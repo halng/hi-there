@@ -6,6 +6,7 @@ authors:
     - Hal Ng
 relates:
     - why-pizza-shops-will-help-you-master-the-factory-pattern-in-java
+    - the-builder-pattern-because-nobody-likes-a-500-parameter-constructor
 ---
 
 *What is the Signleton Pattern and its principle? How can we use it to improve our code? How to implement it in Java and so on... In this blog post we are going to learn more about it. Let's dive in!!*

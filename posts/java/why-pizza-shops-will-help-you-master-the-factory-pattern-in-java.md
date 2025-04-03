@@ -6,6 +6,7 @@ authors:
     - Hal Ng
 relates:
     - design-pattern-in-java-singleton
+    - the-builder-pattern-because-nobody-likes-a-500-parameter-constructor
 ---
         
 ## Contents
