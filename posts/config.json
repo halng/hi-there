@@ -140,6 +140,19 @@
         ],
         "description": "The Builder pattern is a creational design pattern used to construct complex objects step by step. It allows you to produce different types and representations of an object using the same construction code.",
         "isPublished": true
+      },
+      {
+        "title": "Understanding Prototype Pattern: Clone Wars in Java!",
+        "slug": "understanding-prototype-pattern-clone-wars-in-java",
+        "tags": [
+          "Prototype Pattern",
+          "Design Pattern",
+          "Creational",
+          "System Design",
+          "Java"
+        ],
+        "description": "Prototype is a creational design pattern that lets you copy existing objects without making your code dependent on their classes.",
+        "isPublished": true
       }
     ]
   },

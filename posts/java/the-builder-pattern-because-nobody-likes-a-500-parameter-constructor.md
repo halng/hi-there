@@ -7,6 +7,7 @@ authors:
 relates:
     - design-pattern-in-java-singleton
     - why-pizza-shops-will-help-you-master-the-factory-pattern-in-java
+    - understanding-prototype-pattern-clone-wars-in-java
 ---
 
 *Hey there, code chefs! Ever tried ordering a pizza with 10 different toppings over the phone? It's a mess, right? "Yes, I want pepperoni..no waitm make that half pepperoni... oh, and extra cheese... thin crust... no, think curst!" Sound familiar? Well, that's exactly how your code feels when dealing with complex object creation! Let's cook up something better with the Builder Pattern.*
