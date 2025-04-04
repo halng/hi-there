@@ -65,14 +65,6 @@ public class DankMeme implements Meme {
         this.topText = topText;
         this.bottomText = bottomText;
     }
-
-    @Override
-    public void display() {
-        System.out.println("🖼️ " + TEMPLATE);
-        System.out.println("↑ " + topText);
-        System.out.println("↓ " + bottomText);
-        System.out.println("✨ Applied filters: " + filters);
-    }
 }
 ```
 
@@ -99,13 +91,16 @@ public class MemeFactory {
         );
         
         // Show off our masterpieces
-        System.out.println("=== Programming Meme ===");
         programmingMeme.display();
-        System.out.println("\n=== Coffee Meme ===");
         coffeeMeme.display();
     }
 }
 ```
+
+The result will be:
+
+![Programming Meme](/assets/drake_meme1.jpg)
+![Coffee Meme](/assets/drake_meme2.jpg)
 
 ## Why Use Prototype Pattern?
 
