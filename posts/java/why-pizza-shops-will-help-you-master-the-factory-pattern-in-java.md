@@ -7,6 +7,7 @@ authors:
 relates:
     - design-pattern-in-java-singleton
     - the-builder-pattern-because-nobody-likes-a-500-parameter-constructor
+    - understanding-prototype-pattern-clone-wars-in-java
 ---
         
 ## Contents
