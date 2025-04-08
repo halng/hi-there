@@ -8,6 +8,7 @@ relates:
     - design-pattern-in-java-singleton
     - the-builder-pattern-because-nobody-likes-a-500-parameter-constructor
     - understanding-prototype-pattern-clone-wars-in-java
+    - why-pizza-shops-will-help-you-master-the-factory-pattern-in-java
 ---
         
 ## Contents

@@ -8,6 +8,7 @@ relates:
     - why-pizza-shops-will-help-you-master-the-factory-pattern-in-java
     - design-pattern-in-java-singleton
     - the-builder-pattern-because-nobody-likes-a-500-parameter-constructor
+    - why-pizza-shops-will-help-you-master-the-factory-pattern-in-java
 ---
 
 *Hey there, code chefs. Today we're diving into the **Prototype** pattern, which is one of the creational design patterns that's all about cloning objects. Think of it as a `copy-paste` superpower for your objects!*
