@@ -64,6 +64,7 @@ public class OldStyleApplication {
 ```
 
 There are 5 problems with this approach:
+
 - Hard-codeed dependencies: Classes had specific dependencies hardcoded within them.
 - Difficult to test: You couldn't easily swap out dependencies for testing (e.g., a mock database).
 - Tight coupling: Classes were dependent on the concrete implementations of their dependencies.
@@ -71,12 +72,14 @@ There are 5 problems with this approach:
 - Nightmare to change implementation: Changing the implementation of dependencies was very difficult.
 
 So this is why IoC and DI were born!! So that:
+
 - Loose Coupling : Your coffee shop can work with any coffee machine that fits the interface
 - Easy Testing : Mock dependencies like a pro
 - Flexible Configuration : Switch implementations without changing code
 - Maintainable Code : Each class has a single responsibility
 
 ## 4. Type of Dependency Injection
+
 ### 4.1. Constructor Injection(The marriage)
 
 This is the most recommended way. Dependencies are passed through the constructor. Clear and all dependencies are available when the object is created.
@@ -139,7 +142,9 @@ public class CoffeeShopApplication {
 Spring uses a process called **component scanning** that works in three phases:
 
 ### 5.1. Scanning Phase
+
 In this phase, Spring scans all classes in this package and sub-packages
+
 ```java
 @Configuration
 @ComponentScan(basePackages = "com.mycoffeeshop")
@@ -201,7 +206,9 @@ public class CoffeeShop {
 ```
 
 ## 7. Conclusion
+
 Dependency Injection and IoC in Spring Boot are like having a really good relationship counselor. They help you:
+
 - Keep your relationships healthy (loose coupling)
 - Stay flexible (easy to change implementations)
 - Maintain independence (each class has its own responsibility)
