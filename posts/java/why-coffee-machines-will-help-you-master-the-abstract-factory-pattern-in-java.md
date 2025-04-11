@@ -169,7 +169,7 @@ public interface CoffeeFactory {
 
 This `CoffeeFactory` is like the generic blueprint for a coffee machine or barista. It says: "I know how to create a Coffee and a Cup." It doesn't specify *which* coffee or cup – that will be the job of the concrete factories. But any concrete factory implementing this interface will provide specific versions of these.
 
-Think of `CoffeeFactory` as the menu interface: any specific coffee shop (factory) must be able to serve you a coffee and a cup. 
+Think of `CoffeeFactory` as the menu interface: any specific coffee shop (factory) must be able to serve you a coffee and a cup.
 
 ### 3.4. Concrete Factory Classes: Hipster Cafe vs. Office Coffee Machine
 
