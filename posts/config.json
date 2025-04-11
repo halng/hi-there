@@ -162,7 +162,7 @@
           "Java",
           "Creational Design Pattern"
         ],
-        "description": "The Abstract Factory Pattern is a creational design pattern that provides an interface for creating families of related objects without specifying their concrete classes. In simpler terms, it’s like a master barista who hands you a set of perfectly matched coffee and cup, without you having to know the specifics of how that combination was brewed or prepared.",
+        "description": "The Abstract Factory Pattern is a creational design pattern that provides an interface for creating families of related objects without specifying their concrete classes. In simpler terms, it\u2019s like a master barista who hands you a set of perfectly matched coffee and cup, without you having to know the specifics of how that combination was brewed or prepared.",
         "isPublished": true
       }
     ]
@@ -180,6 +180,19 @@
         ],
         "isPublished": true,
         "description": "Have you been working with Spring Boot for a long time? Have you ever wondered what sets it apart from traditional Spring?"
+      },
+      {
+        "title": "Breaking Up is Easy: A Love Story About Dependency Injection and IoC in Spring Boot",
+        "slug": "breaking-up-is-easy-a-love-story-about-dependency-injection-and-ioc-in-spring-boot",
+        "tags": [
+          "Dependency Injection",
+          "DI",
+          "Inversion Of Control",
+          "IoC",
+          "Spring Boot"
+        ],
+        "description": "Before DI and IoC, classes were tightly coupled, meaning they were responsible for creating and managing the objects they needed (their dependencies). This made code rigid, hard to test, and difficult to change.",
+        "isPublished": true
       }
     ]
   },
