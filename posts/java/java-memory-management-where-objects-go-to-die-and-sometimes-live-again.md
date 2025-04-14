@@ -57,9 +57,10 @@ public class MemoryLeekExample {
 ```
 
 But fear not! Here's how to fight these memory-hungry monsters:
+
 1. Use proper data structures
 2. Close your resource
-3. Watch out for static collections 
+3. Watch out for static collections
 
 ```java
 // The right way to handle resources
@@ -69,6 +70,7 @@ try (FileInputStream fis = new FileInputStream("important.txt")) {
     // Handle exception
 }  // Resources automatically closed! Magic! ✨
 ```
+
 Remember: Memory leaks are like vampires - they suck the life out of your application, but they can't enter unless you invite them in (through bad coding practices).
 
 ## 4. Conclusion
