@@ -164,6 +164,16 @@
         ],
         "description": "The Abstract Factory Pattern is a creational design pattern that provides an interface for creating families of related objects without specifying their concrete classes. In simpler terms, it\u2019s like a master barista who hands you a set of perfectly matched coffee and cup, without you having to know the specifics of how that combination was brewed or prepared.",
         "isPublished": true
+      },
+      {
+        "title": "Java Memory Management: Where Objects Go to Die (and Sometimes Live Again!)",
+        "slug": "java-memory-management-where-objects-go-to-die-and-sometimes-live-again",
+        "tags": [
+          "Java Memory Management",
+          "Garbage Collection"
+        ],
+        "description": "Ever wondered what happens in the mysterious world of objects when you're not looking? Grab your popcorn, because this story is better than any soap opera!",
+        "isPublished": true
       }
     ]
   },
