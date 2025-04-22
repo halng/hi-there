@@ -260,6 +260,18 @@
         ],
         "isPublished": true,
         "description": "In this post, we delve into the core networking components of AWS. You\u2019ll learn how IP addressing, CIDR notation, Virtual Private Clouds (VPCs), subnets, and routing work together to create a secure and scalable network infrastructure. We\u2019ll also discuss the mechanisms for securing your network through Network ACLs and Security Groups, providing a solid foundation for your AWS cloud architecture."
+      },
+      {
+        "title": "Edge and Hybrid Storage Solutions ",
+        "slug": "edge-and-hybrid-storage-solutions",
+        "tags": [
+          "Hybrid Storage",
+          "Snowcone",
+          "AWS Storage",
+          "AWS Outposts"
+        ],
+        "description": "When we begining to run our workloads on AWS, we should first consider the storage options. With AWS, we can use the same infrastructures, services, APIs, and tools wherever we need them. From the cloud, to on premises, and at the edge. In this blog we will learn about the benefits, use cases, and main feature of AWS services that provide edge and hybrid solutions.",
+        "isPublished": true
       }
     ]
   },
