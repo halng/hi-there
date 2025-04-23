@@ -260,6 +260,19 @@
         ],
         "isPublished": true,
         "description": "In this post, we delve into the core networking components of AWS. You\u2019ll learn how IP addressing, CIDR notation, Virtual Private Clouds (VPCs), subnets, and routing work together to create a secure and scalable network infrastructure. We\u2019ll also discuss the mechanisms for securing your network through Network ACLs and Security Groups, providing a solid foundation for your AWS cloud architecture."
+      },
+      {
+        "title": "AWS Fundamentals - Getting Started (Part 3)",
+        "slug": "aws-fundamentals-getting-started-part-3",
+        "tags": [
+          "AWS",
+          "AWS Storage Service",
+          "Block Storage",
+          "File Storage",
+          "S3"
+        ],
+        "description": "When you consider running your workloads on AWS, you might first consider your storage options. AWS storage provides the services you need to build the storage solution that's right for your business.",
+        "isPublished": true
       }
     ]
   },
