@@ -6,6 +6,7 @@ authors:
     - Hal Ng
 relates:
     - aws-fundamentals-getting-started-part-1
+    - aws-fundamentals-getting-started-part-3
 ---
 
 *In my previous post, <https://hi-there.me/blogs/aws/aws-fundamentals-getting-started-part-1>, I introduced readers to AWS serverless computing and key services for hosting applications, such as Lambda and EC2, along with their fundamental aspects. In today's post, I will focus on one of the most critical components of AWS: Networking.*

@@ -5,6 +5,7 @@ date: '2025-04-22'
 authors: 
     - Hal Ng
 relates:
+    - aws-fundamentals-getting-started-part-3
 ---
 
 When we begining to run our workloads on AWS, we should first consider the storage options. With AWS, we can use the same infrastructures, services, APIs, and tools wherever we need them. From the cloud, to on premises, and at the edge. In this blog we will learn about the benefits, use cases, and main feature of AWS services that provide edge and hybrid solutions.
