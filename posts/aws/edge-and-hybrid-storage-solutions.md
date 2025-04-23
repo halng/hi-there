@@ -133,3 +133,15 @@ Your data is encrypted by default at rest using Server-Side Encryption with Amaz
 - *Use on-premises file shares backed by cloud storage:* Amazon FSx File Gateway helps you access fully managed, cloud-backed file shares from on premises. FSx File Gateway reduces your costs of storing data locally. You have the flexibility to access your data in the cloud. Managing and scaling on-premises infrastructure is often burdensome and costly, requiring expensive hardware refreshes, expansion, and software licensing.  Amazon FSx File Gateway helps you reduce these on-premises costs and physical hardware footprints. Reduce costs give you more freedom to make the best decisions for your business.
 - *Move backups to the cloud:* You can use Storage Gateway to securely and easily store backups in the cloud. These include database backups, file share backups, tape archives, and more. Tape Gateway provides a virtual tape library, with each virtual tape being stored in Amazon S3, and supports all major backup applications. 
 - *Data protection and disaster recovery:* With a Volume Gateway configuration, you can take snapshots of your local volumes and store those snapshots in Amazon EBS. You can use those snapshots as the starting point for an Amazon EBS volume. You can then attach the volume to an Amazon EC2 instance. If a disaster occurs at a local site, set up your applications in the cloud or in a different data center and restore your snapshot to get back up and running.
+
+## 4. Recap
+
+This blog provides a comprehensive overview of AWS hybrid and edge storage solutions, focusing on three main services: AWS Snow Family, AWS Outposts, and AWS Storage Gateway.
+
+- AWS Snow Family is introduced as a suite of edge storage solutions designed for environments with limited or no connectivity. These devices offer secure, rugged, and scalable options for data migration and edge computing.
+
+- AWS Outposts is explored next, emphasizing its role in bringing native AWS services, infrastructure, and operating models to virtually any on-premises or edge location. The blog covers the overview, key features, and practical use cases, highlighting how Outposts bridges the gap between on-premises systems and the AWS cloud.
+
+- AWS Storage Gateway rounds out the discussion as a hybrid storage solution that connects on-premises software appliances with cloud-based storage. The blog details its overview, features, and use cases, demonstrating how it facilitates seamless data movement and integration between on-premises infrastructure and AWS cloud storage.
+
+Together, these services empower organizations to build flexible, secure, and efficient hybrid cloud architectures tailored to their unique workloads and infrastructure needs.
