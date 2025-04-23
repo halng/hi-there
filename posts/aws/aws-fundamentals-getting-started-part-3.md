@@ -5,6 +5,9 @@ date: '2025-04-23'
 authors: 
     - Hal Ng
 relates:
+    - aws-fundamentals-getting-started-part-2
+    - aws-fundamentals-getting-started-part-1
+    - edge-and-hybrid-storage-solutions
 ---
  
 When you consider running your workloads on AWS, you might first consider your storage options. AWS storage provides the services you need to build the storage solution that's right for your business.
@@ -264,7 +267,8 @@ S3 Lifecycle policies can also be used to expire objects at the end of their lif
 - Amazon S3 storage analytics and insights
 - Amazon S3 access management and security
 - Amazon S3 data processing and query
-##### 4.3.4. Amazon S3 use cases
+
+#### 4.3.4. Amazon S3 use cases
 
 Amazon S3 use cases are similar to those of many file storage systems. With virtually unlimited storage low costs, Amazon S3 is a strong storage solution for data-intensive and long-term data storage requirements.
 - Backup and restore
@@ -276,4 +280,15 @@ Amazon S3 use cases are similar to those of many file storage systems. With virt
 
 ## 5. Recap
 
-## 6. What’s Next?
+This blog serves as a detailed guide to understanding and selecting the most suitable storage solutions within the **AWS Cloud ecosystem**, comparing them to traditional on-premises approaches.
+
+- It begins with a comparison between **on-premises storage and AWS cloud storage**, outlining the benefits, limitations, and considerations of moving data to the cloud.
+
+- Next, it introduces the **AWS Storage Portfolio**, showcasing the breadth of services AWS offers to meet diverse storage needs, from block and file storage to scalable object storage.
+
+- The blog then walks readers through a **step-by-step framework** for choosing the right storage solution. This includes evaluating **storage characteristics and requirements**, asking the right **guiding questions**, reviewing **configuration options**, and pinpointing the **key attributes** of a storage workload.
+
+- Finally, the blog provides a deep dive into specific **AWS storage services**:
+  - **Block Storage** via **Amazon EBS** and **EC2 instance store** for high-performance workloads.
+  - **File Storage** options for applications that require file system access.
+  - **Object Storage** through **Amazon S3**, covering its **overview**, various **storage classes**, **key features**, and **common use cases**, reinforcing S3's versatility as a cornerstone of cloud-native storage.

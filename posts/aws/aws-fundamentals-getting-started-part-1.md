@@ -7,6 +7,7 @@ authors:
 relates:
     - introduction-to-aws
     - aws-fundamentals-getting-started-part-2
+    - aws-fundamentals-getting-started-part-3
 ---
 
 *Hi everyone, In this course, we will go though the key concepts behind cloud computing and explore AWS services covering compute, storage, databases, and networking. Let's get started!*

@@ -273,6 +273,18 @@
         ],
         "description": "When you consider running your workloads on AWS, you might first consider your storage options. AWS storage provides the services you need to build the storage solution that's right for your business.",
         "isPublished": true
+      },
+      {
+        "title": "Edge and Hybrid Storage Solutions ",
+        "slug": "edge-and-hybrid-storage-solutions",
+        "tags": [
+          "Hybrid Storage",
+          "Snowcone",
+          "AWS Storage",
+          "AWS Outposts"
+        ],
+        "description": "When we begining to run our workloads on AWS, we should first consider the storage options. With AWS, we can use the same infrastructures, services, APIs, and tools wherever we need them. From the cloud, to on premises, and at the edge. In this blog we will learn about the benefits, use cases, and main feature of AWS services that provide edge and hybrid solutions.",
+        "isPublished": true
       }
     ]
   },
